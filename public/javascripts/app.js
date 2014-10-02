@@ -91,9 +91,24 @@
   globals.require.brunch = true;
 })();
 require.register("scripts/app", function(exports, require, module) {
+require("./landing");
+});
+
+;require.register("scripts/landing", function(exports, require, module) {
 $(document).ready(function() {
-  $(".hero-content h3").click(function(){}
-    console.log("hello!");
+  $('.hero-content h3').click(function(){
+    subText = $(this).text();
+    $(this).text(subText + '!');
+  });
+
+  $('.selling-points .point').hover(function() {
+    //On hover, slide point down
+    console.log('Hover action triggered.');
+    $(this).animate({'margin-top': '10px'});
+  }, function(){
+    //Off hover, put point back where it was
+    console.log('Off-hover action triggered.');
+    $(this).animate({'margin-top': '0'});
   });
 }); 
 });

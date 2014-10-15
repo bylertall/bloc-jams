@@ -24,6 +24,13 @@ blocJams.config(['$stateProvider', '$locationProvider', function($stateProvider,
     controller: 'Landing.controller',
     templateUrl: '/templates/landing.html'
   });
+
+  /*Song page*/
+  $stateProvider.state('song', {
+    url:'/song',
+    controller: 'Song.controller',
+    templateUrl: '/templates/song.html'
+  });
   
   /*Collection*/
   $stateProvider.state('collection', {
@@ -40,6 +47,16 @@ blocJams.controller('Landing.controller', ['$scope', function($scope) {
     $scope.subText += '!';
   };
 
+  $scope.titleText = "Bloc Jams";
+
+  $scope.titleTextClicked = function () {
+    function shuffle(o){ //v1.0
+      for(var j, x, i = o.length; i; j = Math.floor(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
+      return o;
+    };
+    shuffle($scope.albumURLs);
+  };
+
   $scope.albumURLs = [
     '/images/album-placeholders/album-1.jpg',
     '/images/album-placeholders/album-2.jpg',
@@ -53,9 +70,14 @@ blocJams.controller('Landing.controller', ['$scope', function($scope) {
   ];
 }]); 
 
+blocJams.controller('Song.controller', ['$scope', function($scope) {
+  $scope.header = 'Song Template';
+}]);
+
 blocJams.controller('Collection.controller', ['$scope', function($scope) {
   $scope.albums = [];
   for (var i=0; i < 33; i++) {
     $scope.albums.push(angular.copy(albumPicasso));
   };
 }]);
+

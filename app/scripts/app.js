@@ -18,32 +18,47 @@ blocJams = angular.module('BlocJams', ['ui.router']);
 blocJams.config(['$stateProvider', '$locationProvider', function($stateProvider, $locationProvider) {
   $locationProvider.html5Mode(true);
 
-  /*Landing*/
+  // Landing
   $stateProvider.state('landing', {
     url: '/',
     controller: 'Landing.controller',
     templateUrl: '/templates/landing.html'
   });
 
-  /*Song page*/
+  // Song page
   $stateProvider.state('song', {
     url:'/song',
     controller: 'Song.controller',
     templateUrl: '/templates/song.html'
   });
   
-  /*Collection*/
+  // Collection
   $stateProvider.state('collection', {
     url:'/collection',
-    controller: 'Collection.controller',
-    templateUrl: '/templates/collection.html'
+    views: {
+      //Main view
+      '': {
+        controller: 'Collection.controller',
+        templateUrl: '/templates/collection.html'
+      },
+      'player_bar@collection': {
+        templateUrl: '/templates/player_bar.html'
+      }
+    }
   });
 
-  /*Album*/
+  // Album
   $stateProvider.state('album', {
     url:'/album',
-    controller: 'Album.controller',
-    templateUrl: '/templates/album.html'
+    views: {
+      '': {
+        controller: 'Album.controller',
+        templateUrl: '/templates/album.html'
+      },
+      'player_bar@album': {
+        templateUrl: '/templates/player_bar.html'
+      }
+    }
   });
 }]);
 

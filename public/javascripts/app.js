@@ -425,8 +425,7 @@ blocJams.service('SongPlayer', function() {
       currentTrackIndex++;
       if(currentTrackIndex >= this.currentAlbum.songs.length) {
         this.playing = false;
-        currentSoundFile.stop();
-        this.currentSong = null;
+        currentSong = null;
       }
       var song = this.currentAlbum.songs[currentTrackIndex];
       this.setSong(this.currentAlbum, song);
@@ -436,8 +435,7 @@ blocJams.service('SongPlayer', function() {
       currentTrackIndex--;
       if(currentTrackIndex < 0) {
         this.playing = false;
-        currentSoundFile.stop();
-        this.currentSong = null;
+        currentSong = null;
       }
       var song = this.currentAlbum.songs[currentTrackIndex];
       this.setSong(this.currentAlbum, song);

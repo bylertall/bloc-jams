@@ -241,10 +241,7 @@ blocJams.directive('slider', ['$document', function($document) {
       };
     }
   };
-<<<<<<< HEAD
 }]);
-=======
-});
 
 blocJams.directive('clickMe', function() {
   return {
@@ -258,4 +255,3 @@ blocJams.directive('clickMe', function() {
     }
   };
 });
->>>>>>> directive-experiments

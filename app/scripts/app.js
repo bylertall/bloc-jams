@@ -55,7 +55,7 @@ blocJams.controller('Landing.controller', ['$scope', function($scope) {
     $scope.subText += '!';
   };
 
-  $scope.titleText = "Bloc Jams";
+  $scope.titleText = "<click-me></click-me>";
 
   $scope.titleTextClicked = function () {
     function shuffle(o){ //v1.0
@@ -241,4 +241,21 @@ blocJams.directive('slider', ['$document', function($document) {
       };
     }
   };
+<<<<<<< HEAD
 }]);
+=======
+});
+
+blocJams.directive('clickMe', function() {
+  return {
+    template: '<h1 ng-click="titleTextClicked()">Bloc Jams</h1>',
+    replace: true,
+    restrict: 'E',
+    link: function(scope, element, attrs) {
+      element.click(function(event) {
+        alert('You just shuffled your albums!')
+      });
+    }
+  };
+});
+>>>>>>> directive-experiments

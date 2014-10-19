@@ -154,7 +154,8 @@ blocJams.service('SongPlayer', function() {
       var currentTrackIndex = trackIndex(this.currentAlbum, this.currentSong);
       currentTrackIndex++;
       if(currentTrackIndex >= this.currentAlbum.songs.length) {
-        currentTrackIndex = 0;
+        this.playing = false;
+        currentSong = null;
       }
       var song = this.currentAlbum.songs[currentTrackIndex];
       this.setSong(this.currentAlbum, song);
@@ -163,7 +164,8 @@ blocJams.service('SongPlayer', function() {
       var currentTrackIndex = trackIndex(this.currentAlbum, this.currentSong);
       currentTrackIndex--;
       if(currentTrackIndex < 0) {
-        currentTrackIndex = this.currentAlbum.songs.length - 1;
+        this.playing = false;
+        currentSong = null;
       }
       var song = this.currentAlbum.songs[currentTrackIndex];
       this.setSong(this.currentAlbum, song);
@@ -178,7 +180,6 @@ blocJams.service('SongPlayer', function() {
         formats: ['mp3'],
         preload: true
       });
-
       this.play();
     }
   };

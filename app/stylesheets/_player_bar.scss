@@ -43,7 +43,12 @@
       margin-right: 60px;
       font-size: 30px;
     }
+
+    .hide-buttons {
+      visibility: hidden;
+    }
   }
+  
   .currently-playing {
     width: 50%;
     text-align: center;

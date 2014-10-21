@@ -1,14 +1,14 @@
 <div ng-controller="PlayerBar.controller" class="player-bar">
   <div class="container">
     <div class="play-controls player-bar-control-group left-controls">
-      <a class="previous" ng-click="songPlayer.previous()" ng-show="songPlayer.playing">
+      <a class="previous" ng-click="songPlayer.previous()" ng-class="{'hide-buttons': !songPlayer.playing}">
         <i class="fa fa-backward"></i>
       </a>
       <a class="play-pause">
         <i class="fa fa-play" ng-show="!songPlayer.playing" ng-click="songPlayer.play()"></i>
         <i class="fa fa-pause" ng-show="songPlayer.playing" ng-click="songPlayer.pause()"></i>
       </a>
-      <a class="next" ng-click="songPlayer.next()" ng-show="songPlayer.playing">
+      <a class="next" ng-click="songPlayer.next()" ng-class="{'hide-buttons': !songPlayer.playing}">
         <i class="fa fa-forward"></i>
       </a>
     </div>
@@ -16,7 +16,7 @@
   <div class="currently-playing player-bar-control-group">
     <h2 class="song-name">{{songPlayer.currentSong.name}}</h2>
     <div class="seek-control">
-      <slider></slider>
+      <slider value='{{playTime}}' max='{{songPlayer.currentSong.length}}' on-change='songPlayer.seek(value)'></slider>
       <div class="current-time">{{songPlayer.playTime}}</div>
       <div class="total-time">{{songPlayer.currentSong.length}}</div>
     </div>

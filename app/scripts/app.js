@@ -372,3 +372,28 @@ blocJams.directive('clickMe', function() {
     }
   };
 });
+
+blocJams.directive('countHoverTime', function() {
+  //initialize counter at zero
+  var counter = 0;
+
+  //every 1sec, increment counter
+  var interval = null;
+
+  var hoverTime = function(event) {
+    interval = setInterval(function(){counter++}, 1000);
+  };
+
+  //log the counter value, clear the interval and set to null, reset counter to zero
+  var logTime = function() {
+    console.log(counter);
+    clearInterval(interval);
+    counter = 0;
+  };
+  return {
+    restrict: 'A',
+    link: function(scope, element, attrs) {
+      element.hover(hoverTime, logTime);
+    }
+  };
+});

@@ -381,9 +381,12 @@ blocJams.directive('countHoverTime', function() {
   var interval = null;
 
   //set interval and counter incrementation
+  var interval = null;
+
   var hoverTime = function(event) {
     interval = setInterval(function(){counter++}, 1000);
   };
+
 
   //log the counter value, clear the interval, reset counter to zero
   var logTime = function() {

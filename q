@@ -1,0 +1,434 @@
+commit 546af908a8436be5ae2d9b95d889e03fdc45c4d9
+Author: Tyler Ball <tball88@gmail.com>
+Date:   Thu Oct 23 21:04:44 2014 +0000
+
+    count-hover-time attr created to count seconds hovered
+
+commit 293b244c85276bfe633ee024ce28c495de5a5a2d
+Author: Tyler Ball <tball88@gmail.com>
+Date:   Thu Oct 23 16:51:23 2014 +0000
+
+    cleaned up app.js
+
+commit 84ea3f530cadd2d5aff9b9ddc63f743777ab5392
+Author: Tyler Ball <tball88@gmail.com>
+Date:   Wed Oct 22 23:00:01 2014 +0000
+
+    fixed looping for next and previous playbar buttons
+
+commit a11bcc415d6fd673095b076da6e2fe4c969706b5
+Author: Tyler Ball <tball88@gmail.com>
+Date:   Wed Oct 22 22:17:49 2014 +0000
+
+    Added volume control
+
+commit 15479fef84545109d119d9f4cdf848818ae0aab5
+Author: Tyler Ball <tball88@gmail.com>
+Date:   Tue Oct 21 16:52:13 2014 +0000
+
+    Added a time indicator for song progress
+
+commit c1c76eb247d7a861fc54a11c28d40f42e3a79a38
+Author: Tyler Ball <tball88@gmail.com>
+Date:   Tue Oct 21 02:10:59 2014 +0000
+
+    fix prev and next hide when no song
+
+commit 7157c913cd0aba320126fd8930456bac1629b9c9
+Author: Tyler Ball <tball88@gmail.com>
+Date:   Tue Oct 21 00:51:03 2014 +0000
+
+    changed slider to update (music location) date on change. also fixed prev-next hide/show
+
+commit 37ee22091983623fefa1d68920a9078195146ca0
+Author: Tyler Ball <tball88@gmail.com>
+Date:   Sun Oct 19 19:45:29 2014 +0000
+
+    fixed merge error from directive-experiments
+
+commit 6620f921b11bc49a213244b96d7015439649f198
+Merge: 4f40dc7 732e4e0
+Author: Tyler Ball <tball88@gmail.com>
+Date:   Sun Oct 19 19:41:46 2014 +0000
+
+    Added alert to blocjams title on click
+
+commit 4f40dc7037673edbb563feb253cfaf41d5e285da
+Author: Tyler Ball <tball88@gmail.com>
+Date:   Sun Oct 19 19:37:13 2014 +0000
+
+    made the sliders animate with angular
+
+commit 732e4e0447e87c574ecf067af04a3eb21f3c5be4
+Merge: 6469f52 1d9ca68
+Author: Tyler Ball <tball88@gmail.com>
+Date:   Sun Oct 19 17:30:16 2014 +0000
+
+    pulled heroku master
+
+commit 6469f52ad6e248a2dd223569efc7bbb8e47afcc2
+Author: Tyler Ball <tball88@gmail.com>
+Date:   Sun Oct 19 17:15:36 2014 +0000
+
+    added clickMe element for landing page title
+
+commit 1d9ca68dd234bb91787dc847aa2942f97b329ed5
+Merge: 009388a 931d608
+Author: Tyler Ball <tball88@gmail.com>
+Date:   Sun Oct 19 15:41:15 2014 +0000
+
+    Merged next-and-previous-exploration with master
+
+commit 009388ab65bbdeb5660ac7288bd53f111cd4f66e
+Author: Tyler Ball <tball88@gmail.com>
+Date:   Sat Oct 18 17:24:13 2014 +0000
+
+    add basic slider directive
+
+commit 931d60817a1d3597f631e82f491755b82dd9ba2c
+Author: Tyler Ball <tball88@gmail.com>
+Date:   Sat Oct 18 02:48:38 2014 +0000
+
+    playerbar next and previous only visible if song playing
+
+commit ae55d0cf39797f14f70ef5ca940637748473c587
+Author: Tyler Ball <tball88@gmail.com>
+Date:   Fri Oct 17 04:28:12 2014 +0000
+
+    remove looping for next and previous playbar buttons
+
+commit d08cb8040e9b220aee0980367f647a479d86a06c
+Author: Tyler Ball <tball88@gmail.com>
+Date:   Thu Oct 16 22:56:24 2014 +0000
+
+    Made music player play music
+
+commit 26eba5e80f646d279708e80bcad30ec5c5ab9788
+Author: Tyler Ball <tball88@gmail.com>
+Date:   Thu Oct 16 20:59:24 2014 +0000
+
+    Made next and previous buttons on player-bar work
+
+commit 99cad6543a08d461cd344a6011c561b9a90326b8
+Author: Tyler Ball <tball88@gmail.com>
+Date:   Thu Oct 16 19:47:55 2014 +0000
+
+    Built SongPlayer service to share song data across views
+
+commit a76c83366e7face65db33138bdab4d7e9b9dd715
+Author: Tyler Ball <tball88@gmail.com>
+Date:   Wed Oct 15 22:11:52 2014 +0000
+
+    Added an angular player bar
+
+commit 209cd56ec6d4cb68ed93fcb1b5218fa1dec07f80
+Author: TB <TBMB@TB-MacBook.local>
+Date:   Wed Oct 15 13:04:14 2014 -0700
+
+    Converted album view to Angular
+
+commit a43b016993c0cafff05849e3601fc3e919149ec1
+Author: Tyler Ball <tball88@gmail.com>
+Date:   Wed Oct 15 16:59:23 2014 +0000
+
+    Add second route to song.html
+
+commit bd641e2ddbf99ac28b520720bb72d46a0ec7c844
+Author: Tyler Ball <tball88@gmail.com>
+Date:   Wed Oct 15 02:37:56 2014 +0000
+
+    Converted collection view to angular
+
+commit 879ff40d99dcb7f5290b85aca47353c2fdc1e5d8
+Author: Tyler Ball <tball88@gmail.com>
+Date:   Wed Oct 15 01:31:36 2014 +0000
+
+    Converted Bloc Jams to a single page app
+
+commit 2a422cb4c0bde2a4212ef48eec252939325598f9
+Author: Tyler Ball <tball88@gmail.com>
+Date:   Tue Oct 14 22:10:29 2014 +0000
+
+    Converted landing page to angular
+
+commit 0beab70ec7d5f9c99ee7ae5d16f2bc5835fbc0aa
+Author: Tyler Ball <tball88@gmail.com>
+Date:   Tue Oct 14 04:04:17 2014 +0000
+
+    Added a profile and subscription page with jquery tabs
+
+commit 9c5048a6611e7113ca362c1c5f9f230271c77777
+Author: Tyler Ball <tball88@gmail.com>
+Date:   Mon Oct 13 22:33:10 2014 +0000
+
+    Added functionality to player controls
+
+commit 917b4e0f37b4c562c0819e6dd259d1655241837b
+Author: Tyler Ball <tball88@gmail.com>
+Date:   Mon Oct 13 20:23:51 2014 +0000
+
+    Refactored css to sass
+
+commit 44331a580fd653675fb6442659810f6e7817454c
+Author: Tyler Ball <tball88@gmail.com>
+Date:   Fri Oct 10 20:26:02 2014 +0000
+
+    Added player bar to album view
+
+commit 4814b3ede54a4680725705d8540e715b8b3da67f
+Author: Tyler Ball <tball88@gmail.com>
+Date:   Thu Oct 9 00:39:01 2014 +0000
+
+    Added a play and pause button to the album view
+
+commit 68be13fbec89dae7cdadaf0149428356e8b2757d
+Author: Tyler Ball <tball88@gmail.com>
+Date:   Mon Oct 6 19:04:15 2014 +0000
+
+    Added an overlay to the collection view
+
+commit a3a71e029883fc884115478452d35a366bf21942
+Author: Tyler Ball <tball88@gmail.com>
+Date:   Sat Oct 4 16:49:58 2014 +0000
+
+    Used jQuery to populate the album view
+
+commit 9f0403ffb14f361c7658484304e573898d3fd6f3
+Author: Tyler Ball <tball88@gmail.com>
+Date:   Fri Oct 3 03:16:19 2014 +0000
+
+    Used jQuery to populate the collection view
+
+commit b28a86ed38017137500e4b976c678d934a25a63f
+Merge: 8bd7457 9e1ec6d
+Author: Tyler Ball <tball88@gmail.com>
+Date:   Thu Oct 2 15:30:37 2014 +0000
+
+    Merge branch 'jquery-intro'
+
+commit 9e1ec6d1c18f58a70ec7566f26cc1493f5474b1e
+Author: Tyler Ball <tball88@gmail.com>
+Date:   Thu Oct 2 15:30:22 2014 +0000
+
+    Added jQuery animations to landing page
+
+commit 8bd74579734a85bc44fe0ba010254aef712799e4
+Merge: 3b2b705 f6296a9
+Author: Tyler Ball <tball88@gmail.com>
+Date:   Thu Oct 2 00:18:54 2014 +0000
+
+    check websocket connection error
+
+commit 3b2b705151f7356d9dbce906b3cba73283379c26
+Author: Tyler Ball <tball88@gmail.com>
+Date:   Thu Oct 2 00:13:20 2014 +0000
+
+    to check websocket connection error w/ jquery-intro
+
+commit f6296a9d0074c1cefacc6dab3d627c55ecf74d38
+Author: Tyler Ball <tball88@gmail.com>
+Date:   Thu Oct 2 00:06:14 2014 +0000
+
+    to check websocket connection error
+
+commit dd68a15da936e801077497173a876744a3a22d70
+Author: Tyler Ball <tball88@gmail.com>
+Date:   Tue Sep 30 01:49:16 2014 +0000
+
+    Created collection view
+
+commit 068853844bbf7ffcfc2d20b263ad7b1eb35ec3e6
+Author: Tyler Ball <tball88@gmail.com>
+Date:   Mon Sep 29 18:26:00 2014 +0000
+
+    Fixed bootstrap cdn link
+
+commit 82ee3b3b522023a0fcedb9d9cfe61df855dc883f
+Author: Tyler Ball <tball88@gmail.com>
+Date:   Mon Sep 29 18:06:56 2014 +0000
+
+    Added bootstrap for grid and styles
+
+commit 0764307e20a923afad8d9951f8121b1e5732c607
+Author: Tyler Ball <tball88@gmail.com>
+Date:   Fri Sep 26 22:04:08 2014 +0000
+
+    added new songs + collection info, changed radial to linear gradient
+
+commit 7937628c0c40b5d6154ab278a7a9b3fe165e722a
+Author: Tyler Ball <tball88@gmail.com>
+Date:   Fri Sep 26 19:26:11 2014 +0000
+
+    Added and styled album view
+
+commit 5e7758af85f084c5c978000c010a8d606135e599
+Author: Tyler Ball <tball88@gmail.com>
+Date:   Fri Sep 26 16:34:05 2014 +0000
+
+    Spruced up index.html with some CSS
+
+commit 3cd086f42ebf527d02e2f2d718982a27ed4f4ae1
+Author: Tyler Ball <tball88@gmail.com>
+Date:   Wed Sep 24 05:26:12 2014 +0000
+
+    added basic HTML skeleton to intex.html
+
+commit 32fb08ec62f5b3f9b54c58ad94d492b9880fa960
+Author: Tyler Ball <tball88@gmail.com>
+Date:   Wed Sep 24 02:24:54 2014 +0000
+
+    added title to bloc jams
+
+commit 5a4e90f48b5c5dab82a357f788831386ce83cc5d
+Merge: 2048e6e 1b15e37
+Author: Joe Lipper <lipperjj@gmail.com>
+Date:   Fri Jul 18 17:53:21 2014 -0700
+
+    Merge pull request #1 from philspitler/master
+    
+    Error on npm install
+
+commit 1b15e37b11b577f4f443a104b670d8befa86ba30
+Author: Phillip Spitler <prs@sproutkey.com>
+Date:   Wed Jul 16 22:25:07 2014 -0400
+
+    Error on npm install
+    
+    The following error occurred when running npm install:
+    "error Arguments to path.join must be strings"
+    
+    The fix is to update to the latest stable version of bower.
+
+commit 2048e6ed4d8de647993fcff18c7343591e2abeba
+Author: Mike Jewett <mikesjewett@gmail.com>
+Date:   Tue Jun 10 10:19:08 2014 -0400
+
+    Removed public from gitginore
+
+commit 441d334b0ce8bbd427eb93f25b33e534fe9387e4
+Author: Robert Smolinski <rob@bloc.io>
+Date:   Thu Jun 5 14:44:45 2014 -0700
+
+    Add bower as a npm dependence.
+
+commit 0c74362d0c85e287fa4396ca8dfb8d0363f85d9a
+Author: Robert Smolinski <rob@bloc.io>
+Date:   Mon Jun 2 16:59:08 2014 -0700
+
+    Added sample music.
+
+commit a8eaeec3f193701b06133e5ed6900cda36eec6ab
+Author: Roshan Choxi <roshan.choxi@gmail.com>
+Date:   Sun Jun 1 20:25:16 2014 -0700
+
+    remove the practice directory
+
+commit 0ffc8011ed47a4c7c1f695764c35396b41897a6b
+Author: Christian Schlensker <christian@cswebartisan.com>
+Date:   Sun Jun 1 18:38:46 2014 -0700
+
+    remove unused starter files
+
+commit 6bd5b88715a54bce79b60eab8ead721d648d9821
+Author: Christian Schlensker <christian@cswebartisan.com>
+Date:   Sun Jun 1 17:41:04 2014 -0700
+
+    updated environment for roadmap rehash
+
+commit 50fba12aab1af7ef7519065be33230cd97da4947
+Author: Robert Smolinski <rob@bloc.io>
+Date:   Wed May 14 10:50:56 2014 -0700
+
+    Revert "first commit"
+    
+    This reverts commit 0f588ef6ae4135d18a4843a4fabbe017d0781fb8.
+
+commit 0f588ef6ae4135d18a4843a4fabbe017d0781fb8
+Author: vagrant <vagrant@precise32.(none)>
+Date:   Wed May 14 17:42:15 2014 +0000
+
+    first commit
+
+commit 1c7c78cdb1295179200d30d0231989ca9e12ee71
+Author: Robert Smolinski <rob@bloc.io>
+Date:   Mon Apr 28 10:56:17 2014 -0700
+
+    Added missing dependence on 'Services'.
+
+commit 95a8ec3386ec9f5988e4449b62ebb0d6be6fc1ab
+Author: Robert Smolinski <rob@bloc.io>
+Date:   Sun Apr 20 11:08:22 2014 -0700
+
+    Adding user_controller, fixing typo.
+
+commit f7106f986fce404288e684a1af10cfafef0e3c24
+Author: Robert Smolinski <rob@bloc.io>
+Date:   Thu Apr 17 09:54:10 2014 -0700
+
+    Flushing out more angular placeholder files.
+
+commit 7a851f44788d679212f1b4e1d8d480a90c839c10
+Author: Robert Smolinski <rob@bloc.io>
+Date:   Wed Apr 9 10:12:20 2014 -0700
+
+    Adding missing include js dependency.
+
+commit a50745102ce27135c51371fd248260257fc6f9ff
+Author: Robert Smolinski <rob@bloc.io>
+Date:   Tue Apr 8 11:35:01 2014 -0700
+
+    Added missing ngApp attribute.
+
+commit 81f558259e11aa1b8347364631f84b337f4d2ec7
+Author: Robert Smolinski <rob@bloc.io>
+Date:   Fri Apr 4 11:34:02 2014 -0700
+
+    Rewrote javascript files to use requirejs. Fixed bootstrap fonts. Added angular and angular templates.
+
+commit d3165729be67d07cf2460c47d1792c1c59c9a54e
+Author: Robert Smolinski <rob@bloc.io>
+Date:   Wed Apr 2 10:24:53 2014 -0700
+
+    adding missing images
+
+commit 20cddb88cae822b89bf61b3c97da6e40837dbc18
+Author: Robert Smolinski <rob@bloc.io>
+Date:   Tue Apr 1 10:52:50 2014 -0700
+
+    Adding missing asset placeholder image.
+
+commit d20b779a1c012db2620b5ab90bfb4f8e1a8d95ee
+Author: Robert Smolinski <rob@bloc.io>
+Date:   Tue Apr 1 10:16:20 2014 -0700
+
+    Added additional files for user profile checkpoint.
+
+commit a6ebe37a3eec60cab672fbe8b4dc93c92a894b3d
+Author: Robert Smolinski <rob@bloc.io>
+Date:   Sun Mar 23 19:26:04 2014 -0700
+
+    Adding growl as a dependence.
+
+commit f413c61f713361f33c166e952d2ac45ac4277a5c
+Author: Robert Smolinski <rob@bloc.io>
+Date:   Sun Mar 23 19:18:50 2014 -0700
+
+    Added welcome text for landing page.
+
+commit c9a447c892036750fe8c1dc3e31a140145349abb
+Author: Robert Smolinski <rob@bloc.io>
+Date:   Sun Mar 23 17:29:19 2014 -0700
+
+    Changed default port for the server.
+
+commit 0a1b385fe03067b287c5fd603e9229f846955009
+Author: Robert Smolinski <rob@bloc.io>
+Date:   Sun Mar 2 21:31:47 2014 -0800
+
+    Starter skeleton with album and collection view setup.
+
+commit 107974867740da81680e1e07b7f323b32e782fa3
+Author: Robert Smolinski <rob@bloc.io>
+Date:   Sat Mar 1 15:54:11 2014 -0800
+
+    Initial project.

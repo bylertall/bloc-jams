@@ -1,3 +1,3 @@
 # Bloc Jams
 
-A spotify replica. View it here: http://tb-bloc-jams.herokuapp.com/
+A spotify replica built using AngularJS. View it here: http://tb-bloc-jams.herokuapp.com/
